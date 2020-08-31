@@ -15,5 +15,5 @@ var port = process.env.PORT || 2019;
 
 var server = app.listen(port, function () {
     var host = server.address().address;
-    console.log("HealthConverter listening at http://%s:%s", host, port);
+    console.log("HealthConverter listening at http://%s:%s", host, port); 
 });
